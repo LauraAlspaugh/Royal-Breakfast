@@ -1,9 +1,11 @@
 .bg-image {
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-image: url('https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
     height: 80vh;
+
+
 }
 
 h1 {
@@ -16,6 +18,7 @@ h1 {
 
 .crown {
     padding: 150px;
+
 }
 
 .para {
@@ -68,4 +71,57 @@ button {
     padding: 7px;
     justify-content: right;
     margin: 4px;
+}
+
+@media(max-width: 900px) {
+    .bg-image {
+        background-image: url('https://images.unsplash.com/photo-1559496417-e7f25cb247f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29mZmVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60');
+    }
+
+    .bg-sugar {
+        margin-left: 3px;
+    }
+
+    .bg-cream {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .bg-coffee {
+        margin-right: 3px;
+    }
+
+    .writing {
+        text-align: center;
+
+    }
+
+    .ending {
+        margin-top: 3px;
+    }
+
+    .mdi {
+        padding: 0px;
+
+        display: table-row;
+    }
+
+
+
+}
+
+.para {
+    font-size: 15px;
+}
+
+.bottom-images {
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.writing {
+    text-align: center;
 }
